@@ -13,7 +13,9 @@ export interface PaginationMeta {
     hasMore: boolean;
     nextCursor?: string;
     prevCursor?: string;
+    meta?: Record<string, unknown>;
 }
+
 
 /**
  * Standard API response structure

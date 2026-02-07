@@ -1,4 +1,0 @@
-src/app/api/comments/route.ts(130,17): error TS2783: 'id' is specified more than once, so this usage will be overwritten.
-src/app/api/communities/route.ts(140,17): error TS2783: 'id' is specified more than once, so this usage will be overwritten.
-src/app/api/posts/route.ts(173,17): error TS2783: 'id' is specified more than once, so this usage will be overwritten.
-src/services/repositories/BaseRepository.ts(253,32): error TS2352: Conversion of type '{ isDeleted: boolean; deletedAt: string; }' to type 'Partial<Omit<T, "id" | "createdAt">>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
